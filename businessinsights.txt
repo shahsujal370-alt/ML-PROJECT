@@ -1,0 +1,7 @@
+Loan Pricing Fairness & Anomaly Detection — Business Insights
+
+The 32,586-row dataset has 29,470 observations with an observed interest-rate target. Random Forest is the best model in the experiment: R² 0.7826, MAE 1.1601 percentage points and RMSE 1.5220 percentage points.
+
+Pricing residuals are defined as actual rate minus predicted rate. The top 1% of absolute residuals flags 59 test loans as potential pricing anomalies. Peer-group benchmarking flags 57 cases, while Isolation Forest flags 59 borrower-profile anomalies. A conservative combined rule flags 14 high-priority cases.
+
+These are investigation signals, not proof of discrimination. Fairness analysis should be interpreted as observational monitoring and supplemented with policy review and additional variables.
