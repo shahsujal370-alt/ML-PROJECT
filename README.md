@@ -69,10 +69,6 @@ Loans are grouped using loan grade, term, income band and loan-amount band. Each
 
 Pricing residuals and anomaly rates are summarized across age groups, home ownership, loan grade and loan intent. Welch's t-tests are included for selected high-volume group comparisons. These tests are monitoring diagnostics, not legal conclusions.
 
- H. Explainability
-
-For the portfolio version, SHAP can be added to explain the fitted tree model. The model's explanation describes why the ML model expects a particular rate; it does not prove why a lender actually charged that rate.
-
 5. Results from the supplied dataset:
 
 After cleaning, 29,470 loans had a non-missing interest-rate target. The experiment used 23,576 training observations and 5,894 test observations.
